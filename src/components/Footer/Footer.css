@@ -41,12 +41,17 @@
   width: 100%;
 
   @media (--viewportMedium) {
-    max-width: 1056px;
     margin: 0 auto;
   }
 
   @media (--viewportLarge) {
-    padding: 0 24px;
+    max-width: 1128px;
+    padding: 0 36px;
+  }
+
+  @media (--viewportXLarge) {
+    max-width: 1056px;
+    padding: 0;
   }
 }
 
