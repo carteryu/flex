@@ -14,6 +14,10 @@ way to update this template, but currently, we follow a pattern:
 
 ## Upcoming version 2019-XX-XX
 
+- [fix] Small changes in CSS files in order to match content width with the footer in pages where the footer
+  is visible. Also, make side layout (used e.g. in `TermsOfServicePage`) align width footer better.
+  [#1090](https://github.com/sharetribe/flex-template-web/pull/1019)
+
 ## [v2.10.0] 2019-01-31
 
 - [add] Add audit script and include it as a CI job. We had security audit job previously on top of
