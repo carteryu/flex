@@ -6,9 +6,13 @@ import css from './PrivacyPolicy.css';
 
 const PrivacyPolicy = props => {
   const { rootClassName, className } = props;
-  const classes = classNames(rootClassName || css.root, className);
+  //const classes = classNames(rootClassName || css.root, className);
 
   // prettier-ignore
+  return (
+    <p> yea idk what to put here</p>
+  );
+  /*
   return (
     <div className={classes}>
       <p className={css.lastUpdated}>Last updated: October 30, 2017</p>
@@ -58,6 +62,7 @@ const PrivacyPolicy = props => {
       </p>
     </div>
   );
+  */
 };
 
 PrivacyPolicy.defaultProps = {
