@@ -9,37 +9,40 @@ const { LatLng, LatLngBounds } = sdkTypes;
 // `predictionPlace` (util.types.place) properties.
 export default [
   {
-    id: 'default-helsinki',
+    id: 'default-santamonica',
     predictionPlace: {
-      address: 'Helsinki, Finland',
+      address: 'Santa Monica, CA',
       bounds: new LatLngBounds(new LatLng(60.29783, 25.25448), new LatLng(59.92248, 24.78287)),
     },
   },
   {
-    id: 'default-turku',
+    id: 'default-culvercity',
     predictionPlace: {
-      address: 'Turku, Finland',
+      address: 'Culver City, CA',
       bounds: new LatLngBounds(new LatLng(60.53045, 22.38197), new LatLng(60.33361, 22.06644)),
     },
   },
   {
-    id: 'default-tampere',
+    id: 'default-dtla',
     predictionPlace: {
-      address: 'Tampere, Finland',
-      bounds: new LatLngBounds(new LatLng(61.83657, 24.11838), new LatLng(61.42728, 23.5422)),
+      address: 'DTLA, CA',
+      bounds: new LatLngBounds(
+        new LatLng(34.062481, 118.236551),
+        new LatLng(34.023801, 118.273976)
+      ),
     },
   },
   {
-    id: 'default-oulu',
+    id: 'default-hollywood',
     predictionPlace: {
-      address: 'Oulu, Finland',
+      address: 'Hollywood, CA',
       bounds: new LatLngBounds(new LatLng(65.56434, 26.77069), new LatLng(64.8443, 24.11494)),
     },
   },
   {
-    id: 'default-ruka',
+    id: 'default-koreatown',
     predictionPlace: {
-      address: 'Ruka, Finland',
+      address: 'Koreatown, CA',
       bounds: new LatLngBounds(new LatLng(66.16997, 29.16773), new LatLng(66.16095, 29.13572)),
     },
   },

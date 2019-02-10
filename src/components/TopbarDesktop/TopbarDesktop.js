@@ -108,7 +108,13 @@ const TopbarDesktop = props => {
       </MenuContent>
     </Menu>
   ) : null;
-
+  const FAQ = (
+    <NamedLink className={css.signupLink} name="AboutPage">
+      <span className={css.signup}>
+        <FormattedMessage id="TopbarDesktop.faq" />
+      </span>
+    </NamedLink>
+  );
   const signupLink = isAuthenticated ? null : (
     <NamedLink name="SignupPage" className={css.signupLink}>
       <span className={css.signup}>
@@ -135,11 +141,13 @@ const TopbarDesktop = props => {
         />
       </NamedLink>
       {search}
+
       <NamedLink className={css.createListingLink} name="NewListingPage">
         <span className={css.createListing}>
           <FormattedMessage id="TopbarDesktop.createListing" />
         </span>
       </NamedLink>
+      {FAQ}
       {inboxLink}
       {profileMenu}
       {signupLink}

@@ -3,7 +3,17 @@
 .pageTitle {
   text-align: center;
 }
-
+.pageSubtitle {
+  text-align: center;
+}
+.question {
+  font-style: italic;
+  color: #7e3333;
+  font-size: 18px;
+}
+.answer {
+  font-size: 15px;
+}
 .staticPageWrapper {
   width: calc(100% - 48px);
   max-width: 1056px;
@@ -26,7 +36,6 @@
 .contentWrapper {
   display: flex;
   flex-wrap: wrap;
-
   @media (--viewportMedium) {
     flex-wrap: nowrap;
   }
@@ -34,7 +43,6 @@
 
 .contentSide {
   font-style: italic;
-
   @media (--viewportMedium) {
     width: 193px;
     margin-right: 103px;

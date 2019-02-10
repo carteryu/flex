@@ -116,6 +116,7 @@ const routeConfiguration = () => {
         />
       ),
     },
+
     {
       path: '/l/:slug/:id/:type/:tab',
       name: 'EditListingPage',
