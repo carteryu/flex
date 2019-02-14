@@ -32,7 +32,7 @@ const AboutPage = () => {
             ᕦ⁞ ✿ ᵒ̌ ᴥ ᵒ̌ ✿ ⁞ᕤ Welcome to the Swole Zone <br />
           </h1>
 
-          <img className={css.coverImage} src={image} alt="My first ice cream." />
+          <img className={css.coverImage} src={image} alt="Did this really not load?" />
 
           <div className={css.contentWrapper}>
             <div className={css.contentSide}>

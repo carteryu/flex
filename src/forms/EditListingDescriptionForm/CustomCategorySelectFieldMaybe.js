@@ -17,24 +17,7 @@ const CustomCategorySelectFieldMaybe = props => {
       id: 'EditListingDescriptionForm.categoryRequired',
     })
   );
-  return categories ? (
-    <FieldSelect
-      className={css.category}
-      name={name}
-      id={id}
-      label={categoryLabel}
-      validate={categoryRequired}
-    >
-      <option disabled value="">
-        {categoryPlaceholder}
-      </option>
-      {categories.map(c => (
-        <option key={c.key} value={c.key}>
-          {c.label}
-        </option>
-      ))}
-    </FieldSelect>
-  ) : null;
+  //if you want custom dropdown go back here
+  return null;
 };
-
 export default CustomCategorySelectFieldMaybe;

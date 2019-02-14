@@ -30,16 +30,17 @@ const availabilityMaybe = config.enableAvailability ? [AVAILABILITY] : [];
 
 // TODO: PHOTOS panel needs to be the last one since it currently contains PayoutDetailsForm modal
 // All the other panels can be reordered.
-export const TABS = [
-  DESCRIPTION,
-  FEATURES,
-  POLICY,
-  LOCATION,
-  PRICING,
-  ...availabilityMaybe,
-  PHOTOS,
-];
+// export const TABS = [
+//   DESCRIPTION,
+//   FEATURES,
+//   POLICY,
+//   LOCATION,
+//   PRICING,
+//   ...availabilityMaybe,
+//   PHOTOS,
+// ];
 
+export const TABS = [DESCRIPTION, FEATURES, LOCATION, PRICING, ...availabilityMaybe, PHOTOS];
 // Tabs are horizontal in small screens
 const MAX_HORIZONTAL_NAV_SCREEN_WIDTH = 1023;
 

@@ -5,42 +5,42 @@
 export const amenities = [
   {
     key: 'towels',
-    label: 'Towels',
+    label: 'Weight Loss',
   },
   {
     key: 'bathroom',
-    label: 'Bathroom',
+    label: 'Post-Rehabilitation',
   },
   {
     key: 'swimming_pool',
-    label: 'Swimming pool',
+    label: 'Calisthenics',
   },
   {
     key: 'own_drinks',
-    label: 'Own drinks allowed',
+    label: 'Ganja lord',
   },
-  {
-    key: 'jacuzzi',
-    label: 'Jacuzzi',
-  },
-  {
-    key: 'audiovisual_entertainment',
-    label: 'Audiovisual entertainment',
-  },
-  {
-    key: 'barbeque',
-    label: 'Barbeque',
-  },
-  {
-    key: 'own_food_allowed',
-    label: 'Own food allowed',
-  },
+  // {
+  //   key: 'jacuzzi',
+  //   label: 'Jacuzzi',
+  // },
+  // {
+  //   key: 'audiovisual_entertainment',
+  //   label: 'Audiovisual entertainment',
+  // },
+  // {
+  //   key: 'barbeque',
+  //   label: 'Barbeque',
+  // },
+  // {
+  //   key: 'own_food_allowed',
+  //   label: 'Own food allowed',
+  // },
 ];
 
 export const categories = [
-  { key: 'smoke', label: 'Smoke' },
-  { key: 'electric', label: 'Electric' },
-  { key: 'wood', label: 'Wood' },
+  { key: 'diet', label: 'Diet' },
+  { key: 'keto', label: 'Keto' },
+  { key: 'weed', label: 'Weed' },
   { key: 'other', label: 'Other' },
 ];
 
