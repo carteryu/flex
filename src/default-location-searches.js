@@ -12,7 +12,10 @@ export default [
     id: 'default-santamonica',
     predictionPlace: {
       address: 'Santa Monica, CA',
-      bounds: new LatLngBounds(new LatLng(60.29783, 25.25448), new LatLng(59.92248, 24.78287)),
+      bounds: new LatLngBounds(
+        new LatLng(34.3373061, -118.1552891),
+        new LatLng(33.7036519, -118.6681759)
+      ),
     },
   },
   {
@@ -25,7 +28,7 @@ export default [
   {
     id: 'default-dtla',
     predictionPlace: {
-      address: 'DTLA, CA',
+      address: 'Downtown Los Angeles, CA',
       bounds: new LatLngBounds(
         new LatLng(34.062481, 118.236551),
         new LatLng(34.023801, 118.273976)
