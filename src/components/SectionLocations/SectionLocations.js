@@ -52,7 +52,7 @@ const SectionLocations = props => {
       </div>
       <div className={css.locations}>
         {locationLink(
-          'Los Angeles',
+          'Santa Monica',
           laStockImage,
           '?address=Santa%20Monica%2C%20California%2C%20United%20States%20of%20America&bounds=34.0505620182362%2C-118.443515604663%2C33.9935699835732%2C-118.521867017229'
           //'?address=Helsinki%2C%20Finland&bounds=60.2978389%2C25.254484899999966%2C59.9224887%2C24.782875800000056&origin=60.16985569999999%2C24.93837910000002'
