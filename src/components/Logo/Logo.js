@@ -4,7 +4,7 @@ import classNames from 'classnames';
 
 import config from '../../config';
 import IconLogo from './IconLogo';
-import LogoImage from './swolelogo2.png';
+import LogoImage from './logo_white_background.jpg';
 import css from './Logo.css';
 
 const Logo = props => {

@@ -70,7 +70,7 @@ const AboutPage = () => {
               </h3>
 
               <p>
-                Join the patrol today! Whether you're a fulltime trainer at the gym looking to
+                Join us today! Whether you're a fulltime trainer at the gym looking to
                 earn some extra cash on the weekend or if you have your own business and looking to
                 expand your clientbase, we have the perfect solution for you.
               </p>
@@ -88,10 +88,10 @@ const AboutPage = () => {
                 That said, we really hope that you check us out again at a later point in time as we're growing fast into other regions.
               </p>
               <p className={css.question}>
-                Why should I become a trainer/trainee with SwolePatrol?!
+                Why should I become a trainer/trainee with TrainerCrew?!
               </p>
               <p className = {css.answer}>
-                For trainers - SwolePatrol offers you the chance to get paid doing what you love WITHOUT the exorbitant gym middle man fees. You keep over 95% of the price as we only take a just enough to pay for our website operating costs. You're able to set your own schedule and your own prices. What could be better?
+                For trainers - Our platform offers you the chance to get paid doing what you love WITHOUT the exorbitant gym middle man fees. You keep over 95% of the price as we only take a just enough to pay for our website operating costs. You're able to set your own schedule and your own prices. What could be better?
                 <br></br>
                 <br></br>
                 For trainees - We've carefully handpicked the top personal trainers in the Los Angeles area to be on this platform. No contracts, no absurd "initiation fees", just book and get to work. It's that simple :).
