@@ -17,7 +17,7 @@ export const amenities = [
   },
   {
     key: 'own_drinks',
-    label: 'Ganja lord',
+    label: 'Tone up',
   },
   // {
   //   key: 'jacuzzi',
@@ -40,7 +40,6 @@ export const amenities = [
 export const categories = [
   { key: 'diet', label: 'Diet' },
   { key: 'keto', label: 'Keto' },
-  { key: 'weed', label: 'Weed' },
   { key: 'other', label: 'Other' },
 ];
 
