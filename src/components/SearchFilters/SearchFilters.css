@@ -43,6 +43,16 @@
   flex-shrink: 0;
 }
 
+.cat {
+  padding: 50px 25px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  font-size: 12px;
+  text-align: center;
+}
+
 .loadingResults {
   @apply --marketplaceH4FontStyles;
   line-height: 20px;

@@ -5,6 +5,7 @@ import { injectIntl, intlShape, FormattedMessage } from 'react-intl';
 import classNames from 'classnames';
 import { withRouter } from 'react-router-dom';
 import omit from 'lodash/omit';
+import catImage from './cat.jpeg';
 
 import {
   BookingDateRangeFilter,
@@ -233,8 +234,14 @@ const SearchFiltersComponent = props => {
       ) : null}
 
       {hasNoResult ? (
-        <div className={css.noSearchResults}>
-          <FormattedMessage id="SearchFilters.noResults" />
+        <div>
+          <div className={css.noSearchResults}>
+            <FormattedMessage id="SearchFilters.noResults" />
+          </div>
+          <div className={css.cat}>
+            <img className={className} src={catImage} alt="catImage" />
+            <FormattedMessage id="SearchFilters.memeTag" />
+          </div>
         </div>
       ) : null}
 

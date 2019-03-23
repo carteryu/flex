@@ -80,6 +80,7 @@ export class ManageListingsPageComponent extends Component {
       listingsAreLoaded && pagination.totalItems === 0 ? (
         <h1 className={css.title}>
           <FormattedMessage id="ManageListingsPage.noResults" />
+          <p> test</p>
         </h1>
       ) : null;
 
