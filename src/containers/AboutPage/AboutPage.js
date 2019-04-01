@@ -29,10 +29,8 @@ const AboutPage = () => {
 
         <LayoutWrapperMain className={css.staticPageWrapper}>
           <h1 className={css.pageTitle}>
-            ᕦ⁞ ✿ ᵒ̌ ᴥ ᵒ̌ ✿ ⁞ᕤ Welcome to the Swole Zone <br />
+            ᕦ⁞ ✿ ᵒ̌ ᴥ ᵒ̌ ✿ ⁞ᕤ Ready to sweat? <br />
           </h1>
-
-          <img className={css.coverImage} src={image} alt="placeholder" />
 
           <div className={css.contentWrapper}>
             <div className={css.contentSide}>
@@ -103,13 +101,12 @@ const AboutPage = () => {
                   Drop us a line
                 </a>. We respond pretty fast to email.
               </p>
-              <p>
+              {/* <p>
                 Also peep our <ExternalLink href={siteFacebookPage}>Facebook</ExternalLink> and <ExternalLink
                   href={siteTwitterPage}
                 >
                   Twitter
-                </ExternalLink>.
-              </p>
+                </ExternalLink>. */}
             </div>
           </div>
         </LayoutWrapperMain>
